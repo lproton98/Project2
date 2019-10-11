@@ -20,26 +20,39 @@ body {
 }
 
 h1 {
+	text-align: center;
 	font-family: courier;
-	font-size: 275%;
+	font-size: 300%;
 	color: red;
 }
 
 h2 {
+	text-align: center;
 	font-family: arial;
 	font-size: 250%;
 	color: darkred;
 }
 
+h3{
+	font-family: arial;
+	font-size: 150%;
+	color: darkred;
+}
+
+h4{
+	font-size: 150%;
+}
+
 p{
-	font-size: large;
+	font-size: 25px;
 }
 
 /*Style for About Me page*/
 .basics{
+	margin: 100px;
+	text-align: center;
 	border: 5px solid red;
 	border-style: outset;
-	padding: 15px;
 	background-image: linear-gradient(to bottom right, red, lightblue);
 }
 
@@ -47,16 +60,41 @@ p{
 	width: 300px;
 	padding: 10px;
 	margin: 10px;
+	border: 5px solid red;
+	border-style: outset;
+	background-image: linear-gradient(to bottom right, red, lightblue);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.academic{
+	font-size: 25px;
+	border: 5px dotted darkred;
+}
+
+.personal{
+	font-size: 25px;
+	border: 5px dotted darkred;
 }
 
 .bvb img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	width: 250px;
 }
 
 /*Style for Resume page*/
 
-.resume {
+.resume{
 	font-family: 'Oswald', san-serif;
+}
+
+.contact{
+	text-align: center;
+	border: 5px outset darkred;
 	
 }
 
@@ -68,9 +106,13 @@ p{
 	color: white;
 	font-size: 170%;
 	background-image: linear-gradient(to bottom right, red, lightblue);
+	float: left;
 }
 
 .glidingpic img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	width:50%;
 } 
 
