@@ -33,13 +33,14 @@ h2 {
 
 p{
 	font-size: large;
-	font-family: arial;
 }
 
 /*Style for About Me page*/
 .basics{
-	border: 2px solid red;
+	border: 5px solid red;
+	border-style: outset;
 	padding: 15px;
+	background-image: linear-gradient(to bottom right, red, lightblue);
 }
 
 .profile img{
@@ -66,10 +67,14 @@ p{
 	margin: 1em;
 	color: white;
 	font-size: 170%;
-	background-image: url("sky.jpg");
+	background-image: linear-gradient(to bottom right, red, lightblue);
 }
 
 .glidingpic img{
 	width:50%;
-	float: center;
 } 
+
+.adthoughts {
+	border: 1em solid red;
+	padding: 1em;
+}
