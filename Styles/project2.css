@@ -2,58 +2,42 @@ body {
 	background-color: lightblue;
 }
 
-.topnav {
-  position: relative;
-  background-color: #333;
-  overflow: hidden;
+h1 {
+	font-family: courier;
+	font-size: 275%;
+	color: red;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+h2 {
+	font-family: helvetica;
+	font-size: 250%;
+	color: darkred;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.cities{
+	padding: 50px;
+	margin: 50px;
+	color: red;
+	font-size: 170%;
+	background-color:yellow;
 }
 
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+.glidingpic img{
+	width:100%;
+} 
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
 }
-
-/* Centered section inside the top navigation */
-.topnav-centered a {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.nav li{
+    display:inline;
 }
-
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-  float: right;
-}
-
-/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
-@media screen and (max-width: 600px) {
-  .topnav a, .topnav-right {
-    float: none;
-    display: block;
-  }
-
-  .topnav-centered a {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
-  }
+.nav a{
+    display:inline-block;
+    padding:10px;
 }
