@@ -1,21 +1,23 @@
-.nav{
+.nav {
 	background-color: white;
 	font-size: 125%;
 	font-family: arial;
-    border:1px solid #ccc;
-    border-width:1px 0;
-    list-style:none;
-    text-align:center;
-}
-.nav li{
-    display:inline;
-}
-.nav a{
-    display:inline-block;
-    padding:15px;
+	border: 1px solid #ccc;
+	border-width: 1px 0;
+	list-style: none;
+	text-align: center;
 }
 
-wrapper{
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	display: inline-block;
+	padding: 15px;
+}
+
+wrapper {
 	margin-right: auto;
 	margin-left: auto;
 	width: 960 px;
@@ -39,22 +41,24 @@ h2 {
 	color: darkred;
 }
 
-h3{
+h3 {
 	font-family: arial;
 	font-size: 150%;
 	color: darkred;
 }
 
-dl{
+dl {
 	font-size: 100%;
 }
 
-p{
+p {
 	font-size: 25px;
 }
 
+
 /*Style for About Me page*/
-.basics{
+
+.basics {
 	margin: 100px;
 	text-align: center;
 	border: 5px solid red;
@@ -62,7 +66,7 @@ p{
 	background-image: linear-gradient(to bottom right, red, lightblue);
 }
 
-.profile img{
+.profile img {
 	width: 300px;
 	padding: 10px;
 	margin: 10px;
@@ -72,42 +76,42 @@ p{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	
 }
 
-.academic{
+.academic {
 	font-size: 25px;
 	border: 5px dotted darkred;
 }
 
-.personal{
+.personal {
 	font-size: 25px;
 	border: 5px dotted darkred;
 }
 
-.bvb img{
+.bvb img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 250px;
 }
 
+
 /*Style for Resume page*/
 
-.resume{
+.resume {
 	font-family: 'Oswald', san-serif;
 }
 
-.contact{
+.contact {
 	text-align: center;
 	border: 5px outset darkred;
 	color: darkred;
-	
 }
+
 
 /*Style for Travel page*/
 
-.cities{
+.cities {
 	padding: 1em;
 	margin: 1em;
 	color: white;
@@ -116,12 +120,12 @@ p{
 	float: left;
 }
 
-.glidingpic img{
+.glidingpic img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width:50%;
-} 
+	width: 50%;
+}
 
 .adthoughts {
 	border: 1em solid red;
