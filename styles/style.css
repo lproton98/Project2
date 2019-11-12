@@ -8,6 +8,18 @@
     text-align:center;
 }
 
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:15px;
+}
+
+h1{
+	text-align: center;
+}
+
 body {
 	background-color: lightblue;
 }
@@ -33,31 +45,48 @@ p{
 	font-size: 25px;
 }
 
-/* syle for About Me page*/
-
-.academic{
-	font-size: 25px;
-	border: 5px dotted darkred;
+li{
+	vertical-align: center;
 }
 
-.personal{
-	font-size: 25px;
-	border: 5px dotted darkred;
-}
-
-.basics{
-	margin: 100px;
-	text-align: center;
-	border: 5px solid red;
-	border-style: outset;
-	background-image: linear-gradient(to bottom right, red, lightblue);
-}
+/* style for About Me page*/
 
 .profile img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 450px;
+	margin-bottom: 20px;
+}
+
+.basics{
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 50px;
+}
+
+.academic{
+	font-size: 25px;
+	border: 5px solid darkred;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	background-image: linear-gradient(to bottom right, grey, white);
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+.personal{
+	font-size: 25px;
+	border: 5px solid darkred;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	background-image: linear-gradient(to bottom right, white, grey);
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;
 }
 
 .bvb img{
@@ -89,6 +118,22 @@ dd{
 }
 
 /*Style for Travel page*/
+#travelintro{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.topdest{
+	text-align: center;
+	clear: right;
+	margin-top: 50px;
+}
+
+.dreamdest{
+	text-align: center;
+	clear: right;
+	margin-top: 100px;
+}
 
 .cities{
 	margin: 1em;
@@ -96,6 +141,10 @@ dd{
 	font-size: 170%;
 	border: 5px dotted darkred;
 	vertical-align: middle;
+	display: inline-block;
+	padding-right: 40px;
+	float: center;
+	margin-left: 300px;
 }
 
 .glidingpic img{
@@ -107,33 +156,33 @@ dd{
 } 
 
 .chicago img{
-	border-style: outset;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 30%;
+	float: right;
+	padding-right: 150px;
 }
 
 .petra img{
-	border-style: outset;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	height: 40%;
+	width: 30%;
+	float: right;
+	padding-right: 150px;
+	padding-bottom: 50px;
 }
 
-
-.nav li{
-    display:inline;
-}
-.nav a{
-    display:inline-block;
-    padding:15px;
-}
 
 .adthoughts{
-	border: 1em solid red;
 	padding: 1em;
+	margin-top: 100px;
+	clear: right;
+	margin-top: 100px;
 }
+
 
 wrapper{
 	margin-right: auto;
