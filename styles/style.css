@@ -12,7 +12,7 @@ body {
 	background-color: lightblue;
 }
 
-h2 {
+h2{
 	text-align: center;
 	font-family: arial;
 	font-size: 250%;
@@ -33,6 +33,8 @@ p{
 	font-size: 25px;
 }
 
+/* syle for About Me page*/
+
 .academic{
 	font-size: 25px;
 	border: 5px dotted darkred;
@@ -43,7 +45,6 @@ p{
 	border: 5px dotted darkred;
 }
 
-/*Style for About Me page*/
 .basics{
 	margin: 100px;
 	text-align: center;
@@ -59,27 +60,42 @@ p{
 	width: 50%;
 }
 
+.bvb img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+}
+
 /*Style for Resume page*/
 
 .resume {
 	font-family: 'Oswald', san-serif;
-	
 }
 
-contact{
+.contact{
 	text-align: center;
 	border: 5px outset darkred;
-	
+}
+
+dl{
+	font-size: 25px;
+	line-height: 50px;
+}
+
+dd{
+	font-size: 20px;
+	line-height: 40px;
 }
 
 /*Style for Travel page*/
 
 .cities{
-	padding: 1em;
 	margin: 1em;
 	color: darkred;
 	font-size: 170%;
 	border: 5px dotted darkred;
+	vertical-align: middle;
 }
 
 .glidingpic img{
@@ -87,15 +103,24 @@ contact{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width:50%;
+	width:30%;
 } 
 
-.bvb img{
+.chicago img{
+	border-style: outset;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 250px;
+	width: 30%;
 }
+
+.petra img{
+	border-style: outset;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 .nav li{
     display:inline;
@@ -105,13 +130,7 @@ contact{
     padding:15px;
 }
 
-.profile img{
-	margin: 1em;
-	color: white;
-	font-size: 170%;
-	background-image: linear-gradient(to bottom right, red, lightblue);
-
-.adthoughts {
+.adthoughts{
 	border: 1em solid red;
 	padding: 1em;
 }
